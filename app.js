@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello Cloud! I am back again - Updated Version');
+  res.send('Hello Cloud! I am back again - Updated the text Version');
 });
 
 app.listen(port, () => {
